@@ -1,0 +1,223 @@
+.cartshopping{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.bg-img{
+    background-image: url(https://media.gettyimages.com/id/1152527286/photo/boutique-shoes-in-a-store.jpg?s=612x612&w=0&k=20&c=-_8nvBm9UrJW65mZxROh7Nz6BfZEk7APnffzrNRwgkQ=);
+    height: 100vh; 
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 95%;
+    margin:0px auto;
+}
+.main{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-img-text{
+    font-Size:3.5em;
+    color: white;
+    margin-top: 1em;
+    padding: 1.5em;
+}
+.bg-img-text-1{
+    color: white;
+    padding-top: 1em;
+    font-size: medium;
+}
+.bg-img-h1{
+    font-size: 50px;
+}
+.plashoe{
+    letter-spacing: 5px;
+}
+
+ .shop-men{
+    letter-spacing: 1px;
+    padding:0.5em 2em;
+    margin-left:5rem;
+    border-radius:0px;
+    border: 1px solid white;
+    outline:none;
+}
+.shop-women{
+    letter-spacing: 1px;
+    padding:0.5em 2em;
+    margin-left:5rem;
+    border-radius:0px;
+    border: 1px solid white;
+    outline:none;
+}
+.shop-men:hover,.shop-women:hover{
+    background-color: rgb(35, 34, 34);
+    color: white;  
+    border: rgb(35, 34, 34);
+}
+.navbar{
+    background-color: rgb(213, 213, 218) ;
+    height: 5em;
+}
+.me-auto{
+    color: white;
+}
+.men{
+    color: white;
+}
+.plashoe{
+    font-weight: bold;
+}
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .fawordpress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .centered-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .regestration {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .regestration:hover {
+    text-decoration: underline;
+  }
+  
+.formlogin1 {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formlogin2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+label {
+  font-weight: bold;
+}
+
+.input-regestration {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btnform {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btnform:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .formlogin1 {
+    width: 100%;
+  }
+}
+.men-div,.women-div,.collection-div{
+  align-items: center;
+  margin: 20px;
+  letter-spacing: 2px;
+}
+.collection-card{
+  width: 100vh;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+}
+/* ShowProduct.css */
+.show-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+  margin: 100px;
+}
+
+.card-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+  
+  
+  
+  
