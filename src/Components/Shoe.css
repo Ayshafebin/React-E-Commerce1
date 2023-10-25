@@ -60,8 +60,14 @@
     background-color: rgb(213, 213, 218) ;
     height: 5em;
 }
+.search-bar {
+  padding: 15px;
+}
 .me-auto{
     color: white;
+}
+.cart-shop,.signup{
+    justify-content: space-between;
 }
 .men{
     color: white;
@@ -213,6 +219,10 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.as-seen-in {
+justify-content: center;
 }
 
 

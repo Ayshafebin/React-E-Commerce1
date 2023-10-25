@@ -13,7 +13,6 @@ const Collection = () => {
       // console.log(id); 
       mynav(`/showproduct/${id}`)
     }
-    const filtermen = Product.filter((Product)=>Product.type === 'men')
 
   return (
     <div>

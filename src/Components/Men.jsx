@@ -1,12 +1,13 @@
-import React from 'react'
-import { Product } from './ProductDatas'
+import React, { useContext } from 'react'
 import { Col, Container, Row, Card } from 'react-bootstrap'
 import Navbar1 from './Navbar'
 import { useNavigate } from 'react-router-dom'
+import { MyContext } from './Context'
 
 const Men = () => {
   
   const mynav = useNavigate();
+  const {Product}=useContext(MyContext)
 
   const passid = (e) => {
     const id = e.target.id
@@ -16,7 +17,7 @@ const Men = () => {
   const filtermen = Product.filter((Product)=>Product.type === 'men')
   
   return (
-    <div>
+    <div> 
       <Navbar1 />
       <div>
         <Container>

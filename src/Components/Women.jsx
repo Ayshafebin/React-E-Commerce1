@@ -1,11 +1,12 @@
-import React from 'react'
-import { Product } from './ProductDatas'
+import React, { useContext } from 'react'
 import { Col, Container, Row, Card } from 'react-bootstrap'
 import Navbar1 from './Navbar'
 import { useNavigate } from 'react-router-dom'
+import { MyContext } from './Context'
 
 
 const Women = () => {
+  const {Product}=useContext(MyContext)
 
   const mynav = useNavigate();
 
