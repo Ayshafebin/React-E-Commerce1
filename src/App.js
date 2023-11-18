@@ -20,6 +20,7 @@ import Adminwomen from './Components/Admin/Adminwomen';
 import Editproduct from './Components/Admin/Editproduct';
 import Addproduct from './Components/Admin/Addproduct';
 import { Products } from './Components/ProductDatas';
+import { Navbar } from 'react-bootstrap';
 
 
 function App() {
@@ -45,6 +46,7 @@ const [signup,setSignup]=useState([])
         <Route path='/collection' element={<Collection/>}/>
         <Route path='/regestration' element={<Regestration/>}/>
         <Route path='/showproduct/:id' element={<ShowProduct/>}/>
+
 
     <Route path='/admin' element={<Admin_home/>}/>
  <Route  element={<Admin_home/>}>
