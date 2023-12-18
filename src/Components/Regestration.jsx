@@ -23,7 +23,7 @@ const Registration = () => {
 
     if (!email) {
       validationErrors.email = "Email is required.";
-    } else if (!/^\S+@\S+\.\S+$/.test(email)) {
+    } else if (!/^\S+@\S+\.\S+$/.tesnt(email)) {
       validationErrors.email = "Invalid email format.";
     }
 

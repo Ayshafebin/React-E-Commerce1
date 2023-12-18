@@ -21,7 +21,7 @@ const Login = () => {
 
       
       if (filterd.length !== 0) {
-        if (filterd[0].password == password) {
+        if (filterd[0].password === password) {
           mynav("/");
           setLogin(true);
 
