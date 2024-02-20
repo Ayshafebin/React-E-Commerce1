@@ -35,7 +35,7 @@ function Navbar1() {
       <FaUser/>
       </Dropdown.Toggle>
       <Dropdown.Menu>
-      { (login==false)? 
+      { (login===false)? 
       
         <>
         <Dropdown.Item onClick={()=>{MyNav('/regestration')}}>Sign Up</Dropdown.Item>

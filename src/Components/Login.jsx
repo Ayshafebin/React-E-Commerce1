@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Shoe.css";
 import { FaWordpress } from "react-icons/fa";
@@ -16,7 +16,7 @@ const Login = () => {
     if (email === "admin@gmail.com" && password === "admin") {
       mynav("/admin");
     } else {
-      const filterd = signup.filter((value) => value.email == email);
+      const filterd = signup.filter((value) => value.email === email);
 
 
       

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MyContext } from './Context';
 
@@ -13,8 +13,11 @@ const Registration = () => {
     const password = e.target.password.value;
 
     
-    setSignup([...signup, { username, email, password }]);
+    setSignup([...signup, { name:username, email:email, password:password }]);
+    console.log(signup);
+
     mynav('/login');
+
   };
 
   return (

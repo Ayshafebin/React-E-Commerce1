@@ -22,7 +22,7 @@ const ShowProduct = () => {
 
   
   const addToCart = () => {
-    if(username!=""){
+    if(username!==""){
       if(prdId.includes(pid)){
         alert('Product already exist');
       }else{
