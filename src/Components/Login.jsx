@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { loginSuccess } from "../Redux/AuthSlice";
 
 const Login =  () => {
-  const { signup, setLogin, setUsername } = useContext(MyContext);
+  // const { signup, setLogin, setUsername } = useContext(MyContext);
   const mynav = useNavigate();
   const isLogin=useSelector(state=>state.auth.isAuthenticated)
  
