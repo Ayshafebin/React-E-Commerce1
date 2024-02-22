@@ -1,5 +1,3 @@
-// Redux/AuthSlice.js
-
 import { createSlice } from "@reduxjs/toolkit";
 const initialUsers = JSON.parse(localStorage.getItem("users")) || [];
 
