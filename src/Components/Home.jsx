@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
+  const users=localStorage.getItem("users")
+  console.log(users)
   const mynav = useNavigate();
   return (
     <div>

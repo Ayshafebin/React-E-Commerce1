@@ -6,11 +6,11 @@ import { useNavigate } from 'react-router-dom'
 
 const Collection = () => {
     const {Product}=useContext(MyContext);
-    const mynav = useNavigate();
+    const mynav = useNavigate()
 
     const passid = (e) => {
       const id = e.target.id
-      // console.log(id); 
+      // console.log(id);
       mynav(`/showproduct/${id}`)
     }
 

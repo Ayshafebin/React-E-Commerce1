@@ -4,15 +4,16 @@ import "./Shoe.css";
 import { MyContext } from "./Context";
 import { useParams } from "react-router-dom";
 import Counter from "./Counter";
+import { useSelector } from 'react-redux';
 
 const Cart = () => {
+  const isAuthenticated = useSelector(state => state.auth.isAuthenticated);
+console.log(isAuthenticated)
   const { id } = useParams();
   const pid = id;
   const { Product, cartItems, setCartItems ,qty, setQty} = useContext(MyContext);
   const prdid = cartItems.map((value) => value.productId);
   const [d, setD] = useState(0)
-  
-
   const addproduct = Product.filter((product) => prdid.includes(product.id));
   const totalsum = addproduct.map((item)=>item.prize*item.qty)
   const totalPrize = totalsum.reduce((acc, crrnt)=>acc+crrnt,0)

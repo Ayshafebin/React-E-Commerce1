@@ -24,6 +24,7 @@ import { Navbar } from 'react-bootstrap';
 
 
 function App() {
+  
 const [signup,setSignup]=useState([])
   const [Product,setProduct]=useState(Products)
   const [qty,setQty] = useState(1)
@@ -41,7 +42,11 @@ const [signup,setSignup]=useState([])
         <Route path='/women' element={<Women/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/contact' element={<Contact/>}/>
+       
+     
         <Route path='/cart/' element={<Cart/>}/>
+       
+       
         <Route path='/reset' element={<Reset/>}/>
         <Route path='/collection' element={<Collection/>}/>
         <Route path='/regestration' element={<Regestration/>}/>
