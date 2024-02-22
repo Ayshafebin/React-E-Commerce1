@@ -20,8 +20,7 @@ const Login =  () => {
     await dispatch(loginSuccess({email,password}))
     console.log("da", isLogin)
     if(isLogin)mynav("/")     
-                                                                                                                                                                                                                                
-    
+                                
   };
 
   return (
