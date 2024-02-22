@@ -18,7 +18,7 @@ const Login =  () => {
     const email = e.target.email.value;
     const password = e.target.password.value;
     await dispatch(loginSuccess({email,password}))
-    console.log("ddf", isLogin)
+    console.log("da", isLogin)
     if(isLogin)mynav("/")     
                                                                                                                                                                                                                                 
     
