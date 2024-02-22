@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Shoe.css";
 import { FaWordpress } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import { MyContext } from "./Context";
+import { MyContext } from "./Context";
 import { useDispatch, useSelector } from "react-redux";
 import { loginSuccess } from "../Redux/AuthSlice";
 
 const Login =  () => {
-  // const { signup, setLogin, setUsername } = useContext(MyContext);
+  const { signup, setLogin, setUsername } = useContext(MyContext);
   const mynav = useNavigate();
   const isLogin=useSelector(state=>state.auth.isAuthenticated)
  
